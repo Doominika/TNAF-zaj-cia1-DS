@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formularz</title>
+</head>
+
+<body>
+    <h2>Employment Form</h2>
+
+    <form action="index.html" method="GET">
+        <div id="row1">
+            <label>
+                First name </br>
+                <input type="text" , name="firstName", placeholder="Jan">
+            </label>
+
+            <label>
+                Last name </br>
+                <input type="text" , name="lastName", placeholder="Kowalski">
+            </label>
+        </div>
+        </br>
+
+        <div id="row2">
+            <label>
+                E-mail
+                <input type="text" , name="email", placeholder="jk@gmail.com">
+            </label>
+
+            <label>
+                Phone
+                <input type="text" , name="phone", placeholder="505 505 505">
+            </label>
+
+            <label>
+                Date of birth
+                <input type="date" , name="date">
+            </label>
+        </div>
+        </br>
+
+        <div id="row3">
+            <label>
+                Gender </br>
+                <select name="gender" class="gen">
+                    <option value="none"></option>
+                    <option value="male">male</option>
+                    <option value="female">female</option>
+                </select>
+            </label>
+        </div>
+        </br>
+
+        <div id="row4">
+            <label>
+                What are you looking for </br>
+                <div>
+                    <div>
+                        <input type="radio" id="softwareEngineer" value="softwareEngineer">
+                        <label for="softwareEngineer">Software Engineer</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="uxDesigner" value="uxDesigner">
+                        <label for="uxDesigner">UX Designer</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="analyticsSpecialist" value="analyticsSpecialist">
+                        <label for="analyticsSpecialist">Analytics Specialist</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="projectMenager" value="projectMenager">
+                        <label for="projectMenager">Project Menager</label>
+                    </div>
+                </div>
+            </label>
+        </div>
+        </br>
+
+        <div id="row5">
+            <label>
+                Which programming languages do you know? </br>
+                <div>
+                    <div>
+                        <input type="checkbox" id="java">
+                        <label for="java">Java</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="javaScript">
+                        <label for="javaScript">Javascript</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="c#">
+                        <label for="c#">C#</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="kotlin">
+                        <label for="kotlin">Kotlin</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="python">
+                        <label for="python">Python</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" id="scala">
+                        <label for="scala">Scala</label>
+                    </div>
+                </div>
+            </label>
+        </div>
+        </br>
+
+        <div id="row6">
+            <label>
+                Message
+                <div>
+                    <textarea id="message" placeholder="Type your message"></textarea>
+                </div>
+
+            </label>
+        </div>
+        </br>
+        <button>wyślij</button>
+    </form>
+</body>
+
+</html>
+
+
+
+
+<!--
+
+    <input type="text" id="message" required minlength="4" maxlength="8" size="10">
+-->

@@ -1,0 +1,92 @@
+form
+{
+    width: 600px;
+    color: #ED652B;
+}
+
+h2
+{
+    color: #ED652B;
+}
+
+#row1
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#row1 label
+{
+    width: 50%;
+    
+}
+
+#row1 label input
+{
+    width: 90%;
+}
+
+#row2
+{
+    display: flex;
+    flex-direction: row;
+}
+
+#row2 label
+{
+    width: 33%;
+}
+
+#row2 label input
+{
+    width: 90%;
+}
+
+#row3 select
+{
+    width: 97%;
+}
+
+#row4 
+{
+    width: 97%;
+}
+
+#row4 label div
+{
+    display: flex;
+    flex-direction: row;
+    color: black;
+}
+
+
+#row4 label div 
+{
+    justify-content: space-between;
+}
+
+#row5 
+{
+    width: 97%;
+}
+
+#row5 label div
+{
+    display: flex;
+    flex-direction: row;
+    color: black;
+
+    
+}
+
+#row5 label div 
+{
+    justify-content: space-between;
+}
+
+#row6 textarea 
+{
+    width: 94%;
+    height: 120px;
+    padding: 10px;
+}
